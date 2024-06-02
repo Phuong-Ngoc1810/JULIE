@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login & Registration Form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="login-regis.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cont">
+    <div class="form sign-in">
+      <h2>Sign In</h2>
+      <label>
+        <span>Email Address</span>
+        <input type="email" name="email" id="exampleInputEmail1">
+      </label>
+      <label>
+        <span>Password</span>
+        <input type="password" name="password" id="exampleInputPassword1">
+      </label>
+      <button class="submit" type="button" onclick="handleLogin()">Sign In</button>
+     
+
+      <div class="social-media">
+        <ul>
+          <li><img src="./images/google-g-2015-logo-png-transparent.png"></li>
+          <li><img src="./images/2023_Facebook_icon.png"></li>
+          <!-- <li><img src="./images/7b66a96b-434f-49bf-999d-fcb04bc6641c (1).png"></li> -->
+        </ul>
+      </div>
+    </div>
+
+    <div class="sub-cont">
+      <div class="img">
+        <div class="img-text m-up">
+          <h1>New here?</h1>
+          <p>sign up and discover</p>
+        </div>
+        <div class="img-text m-in">
+          <h1>One of us?</h1>
+          <p>just sign in</p>
+        </div>
+        <div class="img-btn">
+          <span class="m-up">Sign Up</span>
+          <span class="m-in">Sign In</span>
+        </div>
+      </div>
+      <div class="form sign-up">
+        <h2>Sign Up</h2>
+        <label>
+          <span>Name</span>
+          <input type="text" id="exampleInputName2">
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" id="exampleInputEmail2">
+        </label>
+        <label>
+          <span>Password</span>
+          <input type="password" id="exampleInputPassword2">
+        </label>
+        <label>
+          <span>Confirm Password</span>
+          <input type="password" id="exampleInputCheckPassword3">
+        </label>
+        <button type="button" class="submit" onclick="handleRegister()">Sign Up Now</button>
+      </div>
+    </div>
+  </div>
+<script src="login-regis.js"></script>
+</body>
+</html>
